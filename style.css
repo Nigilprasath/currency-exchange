@@ -1,0 +1,62 @@
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --clr--dark:#1c2042;
+    --clr--white:#ffffff;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'oswald',sans-serif;
+    background-color: var(--clr--dark);
+    color:var(--clr--white);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    padding:1.5rem;
+}
+.currency{
+    padding:1.7rem 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency select{
+    padding:1rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border:1px solid var(--clr--dark);
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+.currency input{
+    font-size: 1.6rem;
+    text-align: right;
+    margin-left:0.2rem;
+    padding:0.3rem;
+}
+.swap-container{
+    display:flex;
+    text-align:center;
+    justify-content: left;
+}
+.btn{
+    cursor:pointer;
+    font-size: 20px;
+    padding:5px 11px;
+    border-radius: 6px;
+    color:blue;
+}
+.select:focus,
+.inuput:focus
+.button:focus{
+    outline:none;
+}
